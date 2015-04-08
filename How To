@@ -1,0 +1,56 @@
+/* How to */
+
+/***************************************************** 
+*
+* Short overview:
+* http://rogerdudler.github.io/git-guide/index.de.html
+*
+* Very neat tutorials:
+* http://rypress.com/tutorials/git/
+*
+******************************************************/
+// First Steps:
+1. github.com -> new repo
+3. cd <directory> git init
+2. cd <directory> git remote add origin "..."
+
+// Adding files
+1. git add changes
+2. git commit
+
+// Removing files
+1. git rm -r one-of-the-directories
+2. git commit
+
+// History
+1. git log --graph --all --oneline --decorate
+
+// GitHub.com Sync:
+1. git pull -> Synchronisize local with global
+2. git push origin <branch-name>
+
+// Branching:
+
+  	  A topic
+	 /
+    D---E---F---G master
+
+1. git branch -a -> see all branches
+2. git log --oneline -> Change HEAD to older commits
+3. git checkout <older commit: E>
+4. git branch <branch-name: topic> -> creates a branch with HEAD pointing to that older commit
+5. git checkout <branch-name topic> 
+
+// Merging
+
+
+
+// GitK or GITK
+1. cd <directory>; gitk -> GUI for git
+2. gitk --all -> displays all Branches
+3. gitg
+
+// Config
+1. emacs .git/config -> New command: lg / lg1 / lg2
+
+

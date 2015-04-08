@@ -1,0 +1,11 @@
+Erstelle eine Klasse Vierervektor, die es ermöglicht einen Vierervektor zu initialisieren.
+- Also, in der main: Vierervektor vektor(10, 0 , 0 ,0 ) als Besipeil; wobei vektor(E, px, py,pz)
+
+Es soll die invariante Masse eines Vierervektors berechnet werden können.
+
+Zwei Vierervektoren sollen addiert werden können.
+
+-------
+Extra:
+
+Erstelle eine Klasse Vektor, die von Vierervektor erbt
